@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Code/ISP392/ISP392/src/java/filters/AuthenticationFilter.java</file>
+            <file>file:/C:/Code/ISP392/ISP392/src/java/dao/LoginDAO.java</file>
+            <file>file:/C:/Code/ISP392/ISP392/src/java/service/BaristaDashboardService.java</file>
+            <file>file:/C:/Code/ISP392/ISP392/src/java/controllers/POListController.java</file>
+            <file>file:/C:/Code/ISP392/ISP392/web/WEB-INF/views/barista/sidebar.jsp</file>
+            <file>file:/C:/Code/ISP392/ISP392/src/java/service/AuthService.java</file>
+            <file>file:/C:/Code/ISP392/ISP392/web/js/barista-order-list.js</file>
+            <file>file:/C:/Code/ISP392/ISP392/web/css/hr-common.css</file>
+            <file>file:/C:/Code/ISP392/ISP392/web/WEB-INF/views/admin/settings-list.jsp</file>
+            <file>file:/C:/Code/ISP392/ISP392/web/WEB-INF/views/inventory/ingredient-list.jsp</file>
+            <file>file:/C:/Code/ISP392/ISP392/web/WEB-INF/views/admin/sidebar.jsp</file>
+            <file>file:/C:/Code/ISP392/ISP392/web/WEB-INF/views/admin/setting-view.jsp</file>
+            <file>file:/C:/Code/ISP392/ISP392/src/java/utils/PasswordUtil.java</file>
+            <file>file:/C:/Code/ISP392/ISP392/src/java/controllers/BaristaDashboardController.java</file>
+            <file>file:/C:/Code/ISP392/ISP392/src/java/controllers/IngredientListController.java</file>
+            <file>file:/C:/Code/ISP392/ISP392/src/java/controllers/ForgotPasswordController.java</file>
+            <file>file:/C:/Code/ISP392/ISP392/src/java/controllers/LoginController.java</file>
+            <file>file:/C:/Code/ISP392/ISP392/src/java/dao/SettingDAO.java</file>
+            <file>file:/C:/Code/ISP392/ISP392/src/java/controllers/HRDashboardController.java</file>
+            <file>file:/C:/Code/ISP392/ISP392/web/WEB-INF/views/reset-password.jsp</file>
+            <file>file:/C:/Code/ISP392/ISP392/web/WEB-INF/views/forgot-password.jsp</file>
+            <file>file:/C:/Code/ISP392/ISP392/src/java/dao/BaristaDAO.java</file>
+            <file>file:/C:/Code/ISP392/ISP392/src/java/dao/IngredientDAO.java</file>
+            <file>file:/C:/Code/ISP392/ISP392/src/java/controllers/AdminDashboardController.java</file>
+            <file>file:/C:/Code/ISP392/ISP392/web/css/verify-otp.css</file>
+            <file>file:/C:/Code/ISP392/ISP392/web/WEB-INF/views/inventory/sidebar.jsp</file>
+            <file>file:/C:/Code/ISP392/ISP392/src/java/service/OTPService.java</file>
+            <file>file:/C:/Code/ISP392/ISP392/web/WEB-INF/views/login.jsp</file>
+            <file>file:/C:/Code/ISP392/ISP392/src/java/dao/HrDAO.java</file>
+            <file>file:/C:/Code/ISP392/ISP392/web/WEB-INF/views/inventory/po-list.jsp</file>
+            <file>file:/C:/Code/ISP392/ISP392/src/java/dao/UserDAO.java</file>
+            <file>file:/C:/Code/ISP392/ISP392/web/WEB-INF/views/barista/dashboard.jsp</file>
+            <file>file:/C:/Code/ISP392/ISP392/web/WEB-INF/views/verify-otp.jsp</file>
+            <file>file:/C:/Code/ISP392/ISP392/src/java/service/EmailService.java</file>
+            <file>file:/C:/Code/ISP392/ISP392/src/java/controllers/ResetPasswordController.java</file>
+            <file>file:/C:/Code/ISP392/ISP392/src/java/dao/PurchaseOrderDAO.java</file>
+            <file>file:/C:/Code/ISP392/ISP392/web/WEB-INF/views/admin/setting-form.jsp</file>
+            <file>file:/C:/Code/ISP392/ISP392/web/css/forgot-password.css</file>
+            <file>file:/C:/Code/ISP392/ISP392/web/css/reset-password.css</file>
+            <file>file:/C:/Code/ISP392/ISP392/src/java/controllers/UserListController.java</file>
+            <file>file:/C:/Code/ISP392/ISP392/web/WEB-INF/views/admin/dashboard.jsp</file>
+        </group>
+    </open-files>
+</project-private>

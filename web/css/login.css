@@ -1,0 +1,372 @@
+/* ===== SIMPLE LOGIN CSS ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', Arial, sans-serif;
+    background: linear-gradient(135deg, #6366f1 0%, #4f46e5 50%, #3b82f6 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.container-fluid {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.col-lg-8, .col-lg-4 {
+    padding: 0;
+}
+
+/* Hide Hero Section */
+.hero-section {
+    display: none;
+}
+
+/* Login Section - Centered */
+.login-section {
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 450px;
+}
+
+.login-card {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.login-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 1rem;
+}
+
+.login-brand-icon {
+    font-size: 1.5rem;
+    color: #f97316;
+}
+
+.login-brand-text {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2d1612;
+}
+
+.login-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #2d1612;
+    margin-bottom: 0.5rem;
+}
+
+.login-subtitle {
+    color: #737373;
+    font-size: 0.9rem;
+}
+
+.login-body {
+    width: 100%;
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.form-floating {
+    position: relative;
+}
+
+.form-label {
+    position: absolute;
+    top: 0.75rem;
+    left: 0.75rem;
+    color: #737373;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+    pointer-events: none;
+    background: white;
+    padding: 0 0.25rem;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #e5e5e5;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+    background: transparent;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #f97316;
+    box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.1);
+}
+
+.form-control:focus + .form-label,
+.form-control:not(:placeholder-shown) + .form-label {
+    top: -0.5rem;
+    left: 0.5rem;
+    font-size: 0.75rem;
+    color: #f97316;
+    font-weight: 500;
+}
+
+.form-control::placeholder {
+    color: transparent;
+}
+
+/* Alert Messages */
+.alert {
+    padding: 0.75rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.alert-danger {
+    background: #fee2e2;
+    color: #ef4444;
+    border-left: 4px solid #ef4444;
+}
+
+.alert-success {
+    background: #d1fae5;
+    color: #10b981;
+    border-left: 4px solid #10b981;
+}
+
+.me-2 {
+    margin-right: 0.5rem;
+}
+
+/* Buttons */
+.btn {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #f97316, #ea580c);
+    color: white;
+}
+
+.btn-primary:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(249, 115, 22, 0.3);
+}
+
+.btn-google {
+    background: white;
+    color: #404040;
+    border: 2px solid #e5e5e5;
+}
+
+.btn-google:hover {
+    border-color: #d4d4d4;
+    background: #f9f9f9;
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+/* Divider */
+.divider {
+    text-align: center;
+    margin: 1.5rem 0;
+    position: relative;
+}
+
+.divider::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: #e5e5e5;
+}
+
+.divider span {
+    background: white;
+    padding: 0 1rem;
+    color: #737373;
+    font-size: 0.9rem;
+}
+
+/* Links */
+.forgot-password {
+    color: #f97316;
+    text-decoration: none;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+    color: #ea580c;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-4 {
+    margin-top: 1.5rem;
+}
+
+.text-muted {
+    color: #737373;
+}
+
+/* Remember Me Checkbox */
+.form-check {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.form-check-input {
+    width: 16px;
+    height: 16px;
+    accent-color: #f97316;
+    margin: 0;
+}
+
+.form-check-label {
+    font-size: 0.9rem;
+    color: #525252;
+    margin: 0;
+}
+
+/* Bootstrap Grid Override */
+.g-0 {
+    margin: 0;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+/* Icon spacing */
+.me-1 {
+    margin-right: 0.25rem;
+}
+
+/* Font Awesome Icons */
+.fas, .fab {
+    font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands";
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 0.5rem;
+    }
+    
+    .container-fluid {
+        max-width: 100%;
+    }
+    
+    .login-card {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .login-card {
+        padding: 1.5rem;
+    }
+    
+    .login-title {
+        font-size: 1.5rem;
+    }
+    
+    .login-brand-text {
+        font-size: 1.3rem;
+    }
+}
+
+/* Loading State */
+.btn-login:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.btn-login.loading::after {
+    content: "";
+    width: 16px;
+    height: 16px;
+    border: 2px solid transparent;
+    border-top: 2px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    animation: spin 1s linear infinite;
+    margin-left: 8px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Focus Visible for Accessibility */
+.form-control:focus-visible,
+.btn-login:focus-visible {
+    outline: 2px solid #f97316;
+    outline-offset: 2px;
+}

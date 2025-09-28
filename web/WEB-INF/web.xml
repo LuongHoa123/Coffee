@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <!-- Login Controller -->
+    <servlet>
+        <servlet-name>LoginController</servlet-name>
+        <servlet-class>controllers.LoginController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginController</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+    <!-- Forgot Password Controller -->
+    <servlet>
+        <servlet-name>ForgotPasswordController</servlet-name>
+        <servlet-class>controllers.ForgotPasswordController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ForgotPasswordController</servlet-name>
+        <url-pattern>/forgot-password</url-pattern>
+    </servlet-mapping>
+    <!-- Verify OTP Controller -->
+    <servlet>
+        <servlet-name>VerifyOTPController</servlet-name>
+        <servlet-class>controllers.VerifyOTPController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>VerifyOTPController</servlet-name>
+        <url-pattern>/verify-otp</url-pattern>
+    </servlet-mapping>
+    <!-- Reset Password Controller -->
+    <servlet>
+        <servlet-name>ResetPasswordController</servlet-name>
+        <servlet-class>controllers.ResetPasswordController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ResetPasswordController</servlet-name>
+        <url-pattern>/reset-password</url-pattern>
+    </servlet-mapping>
+    <!-- HR Controllers -->
+    <!-- HR Dashboard Controller -->
+    <servlet>
+        <servlet-name>HRDashboardController</servlet-name>
+        <servlet-class>controllers.HRDashboardController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HRDashboardController</servlet-name>
+        <url-pattern>/hr/dashboard</url-pattern>
+    </servlet-mapping>
+   
+    <!-- Admin Dashboard Controller -->
+    <servlet>
+        <servlet-name>AdminDashboardController</servlet-name>
+        <servlet-class>controllers.AdminDashboardController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminDashboardController</servlet-name>
+        <url-pattern>/admin/dashboard</url-pattern>
+    </servlet-mapping>
+   
+    <!-- Admin Setting Controller -->
+    <servlet>
+        <servlet-name>AdminSettingController</servlet-name>
+        <servlet-class>controllers.AdminSettingController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminSettingController</servlet-name>
+        <url-pattern>/admin/settings</url-pattern>
+    </servlet-mapping>
+   
+    <!-- Inventory Dashboard Controller -->
+    <servlet>
+        <servlet-name>InventoryDashboardController</servlet-name>
+        <servlet-class>controllers.InventoryDashboardController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InventoryDashboardController</servlet-name>
+        <url-pattern>/inventory/dashboard</url-pattern>
+    </servlet-mapping>
+   
+    <!-- PO List Controller -->
+    <servlet>
+        <servlet-name>POListController</servlet-name>
+        <servlet-class>controllers.POListController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>POListController</servlet-name>
+        <url-pattern>/inventory/po-list</url-pattern>
+    </servlet-mapping>
+   
+    <!-- Ingredient List Controller -->
+    <servlet>
+        <servlet-name>IngredientListController</servlet-name>
+        <servlet-class>controllers.IngredientListController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>IngredientListController</servlet-name>
+        <url-pattern>/inventory/ingredient-list</url-pattern>
+    </servlet-mapping>
+   
+    <welcome-file-list>
+        <welcome-file>login.jsp</welcome-file>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>

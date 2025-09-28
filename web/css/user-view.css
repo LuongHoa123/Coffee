@@ -1,0 +1,310 @@
+/* User View CSS - Dành cho View User Details */
+
+/* View Container */
+.user-view-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* View Card */
+.user-view-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border: 1px solid #e9ecef;
+}
+
+/* Card Header */
+.view-card-header {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    padding: 25px 30px;
+    text-align: center;
+}
+
+.view-card-header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.view-card-header p {
+    margin: 8px 0 0 0;
+    opacity: 0.9;
+    font-size: 16px;
+}
+
+/* User Avatar Section */
+.user-avatar-section {
+    text-align: center;
+    padding: 30px;
+    background: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.user-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #28a745, #20c997);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-avatar i {
+    font-size: 48px;
+    color: white;
+}
+
+.user-name {
+    font-size: 28px;
+    font-weight: 700;
+    color: #2c3e50;
+    margin: 0 0 8px 0;
+}
+
+.user-email {
+    font-size: 18px;
+    color: #6c757d;
+    margin: 0;
+}
+
+/* User Details Section */
+.user-details-section {
+    padding: 30px;
+}
+
+.detail-item {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #f1f3f4;
+}
+
+.detail-item:last-child {
+    border-bottom: none;
+}
+
+.detail-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+    font-size: 16px;
+    color: white;
+}
+
+.detail-icon.role {
+    background: linear-gradient(135deg, #6f42c1, #5a2d91);
+}
+
+.detail-icon.status {
+    background: linear-gradient(135deg, #28a745, #1e7e34);
+}
+
+.detail-icon.date {
+    background: linear-gradient(135deg, #17a2b8, #138496);
+}
+
+.detail-icon.phone {
+    background: linear-gradient(135deg, #fd7e14, #e55a00);
+}
+
+.detail-icon.address {
+    background: linear-gradient(135deg, #e83e8c, #d91a72);
+}
+
+.detail-content {
+    flex: 1;
+}
+
+.detail-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #6c757d;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+}
+
+.detail-value {
+    font-size: 16px;
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+/* Role Badge */
+.role-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.role-badge.inventory {
+    background: #e3f2fd;
+    color: #1976d2;
+}
+
+.role-badge.barista {
+    background: #fff3e0;
+    color: #f57c00;
+}
+
+.role-badge.hr {
+    background: #f3e5f5;
+    color: #7b1fa2;
+}
+
+/* Status Badge */
+.status-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.status-badge.active {
+    background: #e8f5e8;
+    color: #2e7d32;
+}
+
+.status-badge.inactive {
+    background: #ffebee;
+    color: #c62828;
+}
+
+.status-badge i {
+    margin-right: 6px;
+}
+
+/* Empty Value */
+.empty-value {
+    color: #adb5bd;
+    font-style: italic;
+}
+
+/* Action Buttons */
+.view-actions {
+    padding: 25px 30px;
+    background: #f8f9fa;
+    border-top: 1px solid #e9ecef;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.view-actions .btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.view-actions .btn i {
+    margin-right: 8px;
+}
+
+.btn-edit {
+    background: #007bff;
+    color: white;
+    border: 2px solid #007bff;
+}
+
+.btn-edit:hover {
+    background: #0056b3;
+    border-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.btn-back {
+    background: transparent;
+    color: #6c757d;
+    border: 2px solid #6c757d;
+}
+
+.btn-back:hover {
+    background: #6c757d;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .user-view-container {
+        margin: 10px;
+        padding: 15px;
+    }
+    
+    .view-card-header {
+        padding: 20px;
+    }
+    
+    .user-avatar-section {
+        padding: 25px 20px;
+    }
+    
+    .user-avatar {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .user-avatar i {
+        font-size: 40px;
+    }
+    
+    .user-name {
+        font-size: 24px;
+    }
+    
+    .user-email {
+        font-size: 16px;
+    }
+    
+    .user-details-section {
+        padding: 20px;
+    }
+    
+    .view-actions {
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .view-actions .btn {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* Animation */
+.user-view-card {
+    animation: fadeInUp 0.5s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
